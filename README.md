@@ -111,6 +111,57 @@ ret
 
 ![div 1](https://github.com/dhivyapriyar/EXPERIMENT--01-ALP-FOR-8086/assets/119477552/a9a86522-9feb-4e0d-8082-0a21aa27f9a7)
 
+## Programs for logical operations
+## AND
+```
+org 100h
+mov bx,1000h;
+and bx,1111h;
+mov [0040h+02],bx;
+ret
+```
+## Output
+
+![image](https://github.com/dhivyapriyar/EXPERIMENT--01-ALP-FOR-8086/assets/119477552/e82a2b12-23e6-4b22-b667-c2cc559d6be0)
+
+## OR
+```
+org 100h
+mov ax,[0040h+06];
+mov bx,1000h;
+or ax,bx;
+mov [0040h+02],ax;
+ret
+```
+## Output
+
+![image](https://github.com/dhivyapriyar/EXPERIMENT--01-ALP-FOR-8086/assets/119477552/f9a9afae-50d6-4c69-8a8c-d221667db9ff)
+
+## NOT
+```
+org 100h
+mov bx,0040h;
+mov ax,[bx]; 
+not al;
+mov [0040h+04],ax;
+ret
+```
+## Output
+
+![image](https://github.com/dhivyapriyar/EXPERIMENT--01-ALP-FOR-8086/assets/119477552/45591835-4640-4b2c-ac50-e370723c3388)
+
+## XOR
+```
+org 100h
+mov bx,0040h;
+mov ax,[bx]; 
+xor ax,bx;
+mov [0040h+04],ax;
+ret
+```
+## Output
+
+![image](https://github.com/dhivyapriyar/EXPERIMENT--01-ALP-FOR-8086/assets/119477552/e2595b3a-14e1-42dd-a890-1a44adefe1e8)
 
 ## Result :
  

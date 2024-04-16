@@ -1,6 +1,6 @@
 # NAME: DHIVYAPRIYA.R
 # REGISTER NO.: 212222230032
-# EXPERIMENT 01-ALP FOR 8086
+# EXPERIMENT 01 ALP FOR 8086
 ## Aim: 
 
 To Write and execute ALP on fundamental arithmetic and logical operations
